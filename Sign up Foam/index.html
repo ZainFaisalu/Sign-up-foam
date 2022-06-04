@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Foam</title>
+</head>
+<body>
+    <div class="content">
+        <h2>Get Started</h2>
+        <p>Already have account ?  <a href="#" id="login">Sign In </a></p>
+        <form id="form">
+            <label for="name" id="nlabel">Name</label> <br>
+            <input type="text" id="fname" placeholder="UserName " autocomplete="off"> <br>
+            <label for="email" id="elabel">Email</label> <br>
+            <input type="email" id="eemail" placeholder="ABCD@gmail.com" autocomplete="off"> <br>
+            <label for="password" id="plabel">Password</label> <br>
+            <input type="password" name="password" id="lpassword"> <br>
+            <button type="submit"  onclick="signUp()" id="btn">Sign Up </button>
+        </form>
+        <div class="other">
+            <h3>Or Sign up with </h3>
+            <div class="icons">
+              <a href="#">  <img width="40px" src="./google icon.jpg"/></a>
+              <a href="#"> <img width="40px" src="./faccbook icon.png"/></a>
+                <a href="#"> <img width="40px" src="./instagram icon.jpg"/></a>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

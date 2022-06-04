@@ -1,0 +1,123 @@
+.content{
+    position: absolute;
+    top: 10px;
+    align-items: center;
+    /* right:110px; */
+    /* text-align: center; */
+}
+.content h2{
+    text-align: center;
+    font-size : 3rem;
+    font-family: 'Lexend', sans-serif;
+    padding: 20px 0px 10px 0px ;
+}
+.content p {
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    padding:10px 0px;
+    color: rgb(150, 148, 148);
+}
+.content p  a {
+    text-decoration: none;
+    color:#1FAB89;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: none;
+}
+#form{
+    padding-top: 20px;
+    /* padding-left: 80px; */
+}
+#form label {
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: #999c9a;
+}
+#form input {
+    border:none;
+    border-bottom:3px solid #1FAB89;
+    width: 350px;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 0px;  
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;  
+}
+#btn{
+    text-align: center;
+    padding:10px 60px ;
+    position: relative;
+    left: 80px;
+    color: #fff;
+    background-color: #1FAB89;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+#btn1{
+    
+    text-align: center;
+    padding:10px 60px ;
+    position: relative;
+    left: 80px;
+    color: #fff;
+    background-color: #1FAB89;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background: url(img/about/png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+}
+h2{
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+.sign-up  span{
+    color: var(--main-color);
+}
+h3{
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+input{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+button{
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.9rem;
+    border: none;
+}
+button:hover{
+    background: #ffad34;
+} */
